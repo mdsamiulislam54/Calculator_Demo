@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3a4452;
+}
+.container{
+    width: 350px;
+    height: 550px;
+    border : 2px solid teal;
+    margin: 30px 0px;
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: rgb(204, 217, 232) 0px 20px 30px -10px;
+    padding: 10px;
+}
+
+.container #display input{
+    width: 100%;
+    
+    padding: 30px 10px;
+    text-align: right;
+    outline: none;
+    border: 2px solid teal;
+    border-radius: 10px;
+    background-color: transparent;
+    color: gold;
+    font-size: 30px;
+
+}
+
+.container .btn{
+    margin-top: 10px;
+}
+.container .btn .equl{
+    width: 130px;
+}
+.container .btn input{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px 13px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all linear 0.4s;
+    text-align: center;
+
+}
+.container .btn input:hover{
+    background-color: teal;
+    
+}
+.oparetor {
+   color: gold !important;
+}
